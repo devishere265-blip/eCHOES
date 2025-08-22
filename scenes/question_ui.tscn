@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://146tnix553s4"]
+
+[ext_resource type="Script" uid="uid://b63krypyn77b5" path="res://question_ui.gd" id="1_r5gaf"]
+
+[node name="QuestionUI" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_r5gaf")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CharacterNameLabel" type="RichTextLabel" parent="Panel/VBoxContainer"]
+layout_mode = 2
+bbcode_enabled = true
+
+[node name="QuestionLabel" type="Label" parent="Panel/VBoxContainer"]
+layout_mode = 2

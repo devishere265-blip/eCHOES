@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://byrg5ydrgsxwa"]
+
+[ext_resource type="Script" uid="uid://cymrc3c5y70rs" path="res://character_body_2d.gd" id="1_ignic"]
+[ext_resource type="Texture2D" uid="uid://dxspdxxjccqli" path="res://graphics/ui/Wenrexa Armor 1 + Body.png" id="2_dondh"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_76phl"]
+radius = 31.0161
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qhfa5"]
+radius = 35.6931
+
+[node name="Node" type="Node"]
+
+[node name="QuestioningCharacter" type="CharacterBody2D" parent="."]
+script = ExtResource("1_ignic")
+
+[node name="Sprite2D" type="Sprite2D" parent="QuestioningCharacter"]
+position = Vector2(333, 164)
+scale = Vector2(3, 3)
+texture = ExtResource("2_dondh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="QuestioningCharacter"]
+position = Vector2(333, 164)
+shape = SubResource("CircleShape2D_76phl")
+
+[node name="DetectionArea" type="Area2D" parent="QuestioningCharacter"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="QuestioningCharacter/DetectionArea"]
+position = Vector2(334, 165)
+shape = SubResource("CircleShape2D_qhfa5")
+debug_color = Color(0.502762, 0.455201, 0.928619, 0.42)
+
+[node name="QuestionTimer" type="Timer" parent="QuestioningCharacter"]
+
+[node name="WanderTimer" type="Timer" parent="."]

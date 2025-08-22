@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2ikpgrdyksco"]
+
+[ext_resource type="Script" uid="uid://bxjks213mk4rn" path="res://scenes/dialog_box.gd" id="2_ghj5q"]
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_ghj5q"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="DialogBox" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 22.0
+offset_top = 220.0
+offset_right = 580.0
+offset_bottom = 359.0
+script = ExtResource("2_ghj5q")
+
+[node name="Panel" type="Panel" parent="DialogBox"]
+layout_mode = 0
+offset_right = 43.0
+offset_bottom = 43.0
+
+[node name="Text" type="RichTextLabel" parent="DialogBox/Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+bbcode_enabled = true
+text = "Wassup my 
+"
+
+[node name="Choices" type="VBoxContainer" parent="DialogBox/Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TimeBar" type="ProgressBar" parent="DialogBox/Panel"]
+layout_mode = 0
+offset_right = 4.0
+offset_bottom = 27.0
+
+[node name="Bleep" type="AudioStreamPlayer2D" parent="DialogBox/Panel"]
+stream = SubResource("AudioStreamRandomizer_ghj5q")

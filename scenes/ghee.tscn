@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bu1f475q25s1x"]
+
+[ext_resource type="Script" uid="uid://qgnsdsepatot" path="res://scenes/ghee.gd" id="1_65qg0"]
+[ext_resource type="Texture2D" uid="uid://bbi4pd88ra6hm" path="res://graphics/spritesheets/forresta_ghost.png" id="1_68o2d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_68o2d"]
+size = Vector2(20, 38)
+
+[node name="Area2D" type="Area2D" groups=["NPC1"]]
+script = ExtResource("1_65qg0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(362, 179)
+shape = SubResource("RectangleShape2D_68o2d")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(363, 179)
+texture = ExtResource("1_68o2d")

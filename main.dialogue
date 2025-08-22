@@ -1,0 +1,41 @@
+~ title
+Vedh: [shake rate=20 level=10]Really The Chosen One[/shake]
+Vedh: [shake rate=20 level=10]Nah Try Answering These![/shake]
+
+
+Vedh: Who is known as the 'Destroyer' in the Hindu trinity?
+- Brahma 
+	Vedh: Brahma! Not Right
+	=> title
+ 
+- Shiva
+	Vedh: Shiva! You Got it
+
+- Vishnu
+	Vedh: Vishnu! Again Wrong
+	=> title
+
+~ Radha
+Vedh: What is the name of Lord Rama's wife?
+- Sita
+	Vedh: Sita! Right Answer 
+- Radha
+	Vedh: Radha! Wrong
+	=> Radha
+ 
+- Draupadi
+	Vedh: Draupadi! Nice Try Fool
+	=> Radha
+
+
+
+Vedh: [wave amp=25 freq=5]You Have Passed Test[/wave]
+Vedh: [wave amp=25 freq=5]As A reward I Grant You With My Sword[/wave]
+
+=> END 
+
+
+
+
+
+

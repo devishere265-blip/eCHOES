@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://co2hcudq4keb3"]
+
+[ext_resource type="Script" uid="uid://cu71vwbaamm6w" path="res://dialouge_box.gd" id="1_iem86"]
+
+[node name="DialougeBox" type="Control"]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_iem86")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0

@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://csl7vauhqlgob"]
+
+[ext_resource type="Script" uid="uid://bqm7iiohkt260" path="res://panel.gd" id="1_0fbet"]
+[ext_resource type="Script" uid="uid://dqyci5o1ij42t" path="res://control.gd" id="1_62e2m"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_62e2m")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_0fbet")

@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="InventorySlot" load_steps=2 format=3 uid="uid://yu0bps0k8idy"]
+
+[ext_resource type="Script" uid="uid://w7brv65jgyhp" path="res://scripts/inventory_slot.gd" id="1_vufsg"]
+
+[resource]
+script = ExtResource("1_vufsg")
+small = false
+is_trash_bin = false
