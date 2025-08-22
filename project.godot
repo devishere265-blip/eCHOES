@@ -21,6 +21,8 @@ Globals="*res://scripts/globals.gd"
 SceneChanger="*res://scenes/scene_changer.tscn"
 EventBus="*res://scripts/events.gd"
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+AudioStreamPlayer12d="*res://web/audio_stream_player1_2d.tscn"
+AudioStreamPlayer2d="*res://web/audio_stream_player_2d.tscn"
 
 [display]
 

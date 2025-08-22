@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://m5yccrvey7ru"]
+
+[ext_resource type="AudioStream" uid="uid://jtqs0gmjnwlp" path="res://2. Satellite Interruption.wav" id="1_w8ggy"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_w8ggy")
+volume_db = 1.981
+autoplay = true

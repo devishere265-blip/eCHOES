@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=3 uid="uid://m3kcn3jkei8p"]
+[gd_scene load_steps=46 format=3 uid="uid://m3kcn3jkei8p"]
 
 [ext_resource type="PackedScene" uid="uid://cb4nnnlumx3eq" path="res://scenes/level_template.tscn" id="1_i3see"]
 [ext_resource type="TileSet" uid="uid://1sfxdircnosj" path="res://resources/base_tile_set.tres" id="2_k3fwo"]
@@ -34,6 +34,7 @@
 [ext_resource type="PackedScene" uid="uid://ciiwbjstgc0xl" path="res://scenes/activator.tscn" id="32_4s5nw"]
 [ext_resource type="Script" uid="uid://bev2cr8llsq2f" path="res://scenes/desighee.gd" id="33_hg84p"]
 [ext_resource type="Texture2D" uid="uid://c2jcijrdyx6h2" path="res://graphics/spritesheets/7_firespin_spritesheet.png" id="33_hjqri"]
+[ext_resource type="PackedScene" uid="uid://m5yccrvey7ru" path="res://web/audio_stream_player1_2d.tscn" id="35_1aans"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f8r63"]
 resource_local_to_scene = true
@@ -538,6 +539,8 @@ position = Vector2(244, 344)
 sprite_frames = SubResource("SpriteFrames_wom8k")
 autoplay = "default"
 frame_progress = 0.979782
+
+[node name="AudioStreamPlayer2D" parent="." index="23" instance=ExtResource("35_1aans")]
 
 [editable path="Platforms/Platform"]
 [editable path="Platforms/Platform2"]
