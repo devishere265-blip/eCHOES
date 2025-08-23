@@ -8,5 +8,6 @@ Feel free to contact me if you have any questions, but with every passing day I 
 
 Created with Godot 4.1.2. Not tested with other versions.
 
-Credits go to: Admurin, Anokolisa, AstroBob, Brullov, Clembod, CodeManu, CreativeKind, Edermunizz, MerchantShade, Pimen, Rvos, SzadiArt and Wenrexa.# eCHOES
+Credits go to: echoes studio
+
 # lega
